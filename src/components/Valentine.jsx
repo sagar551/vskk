@@ -12,7 +12,7 @@ const noMessages = [
     "Alright. Enough drama. You’re clearly meant to say Yes 💖"
 ];
 
-function generateValentineMessage(name = "You") {
+function generateValentineMessage(name = "Chanduu") {
     const openers = [
         "I was going to write something simple, but my heart had other plans.",
         "I tried to be logical… then I thought about you.",
@@ -68,7 +68,7 @@ export default function Valentine() {
     const [yesScale, setYesScale] = useState(1);
     const [noStage, setNoStage] = useState(0);
 
-    const name = "Khushboo";
+    const name = "ChanduHoney";
 
     useEffect(() => {
         const canvas = canvasRef.current;
@@ -138,7 +138,7 @@ export default function Valentine() {
 
                     {step === "intro" && (
                         <div className="animate-pop">
-                            <h1 className="text-4xl font-extrabold mb-6">Hey Khushboo 💕</h1>
+                            <h1 className="text-4xl font-extrabold mb-6">Hey Chanduu 💕</h1>
                             <p className="mb-8 opacity-80">I have something important to ask you…</p>
                             <button
                                 onClick={() => setStep("question")}
